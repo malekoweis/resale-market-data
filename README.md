@@ -16,6 +16,8 @@ with the matching Actor.
 
 Every dataset comes as **CSV** (flat columns) and **JSONL** (full records, including nested
 per-size prices for GOAT).
+Also on Hugging Face: [malekoweis/resale-market-data](https://huggingface.co/datasets/malekoweis/resale-market-data)
+(load with `datasets.load_dataset("malekoweis/resale-market-data", "mercari-us-sold-listings")`).
 
 ## What the data shows (October 2026)
 
