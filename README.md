@@ -51,8 +51,11 @@ on Apify (free tier available), or connect it to an AI assistant (Claude, ChatGP
 MCP client) through Apify's MCP server:
 
 ```
-https://mcp.apify.com/?tools=malek_oweis/mercari-sold-listings-scraper,malek_oweis/stockx-search-price-scraper,malek_oweis/goat-sneaker-price-scraper,malek_oweis/chrono24-watch-listing-scraper,malek_oweis/shopify-store-product-price-scraper,malek_oweis/etsy-shop-seo-auditor
+https://mcp.apify.com/?tools=malek_oweis/mercari-sold-listings-scraper,malek_oweis/stockx-search-price-scraper,malek_oweis/goat-sneaker-price-scraper,malek_oweis/chrono24-watch-listing-scraper,malek_oweis/shopify-store-product-price-scraper,malek_oweis/etsy-shop-seo-auditor,malek_oweis/resale-price-checker
 ```
+
+For a single answer per item across StockX, GOAT and Mercari, use the
+[Resale Price Checker](https://apify.com/malek_oweis/resale-price-checker).
 
 Then ask in plain language, for example: *"What did a used PS5 sell for on Mercari this
 month?"* or *"Show the StockX 90-day average price for the Jordan 4 Black Cat."*
