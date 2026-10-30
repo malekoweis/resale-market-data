@@ -19,6 +19,18 @@ per-size prices for GOAT).
 Also on Hugging Face: [malekoweis/resale-market-data](https://huggingface.co/datasets/malekoweis/resale-market-data)
 (load with `datasets.load_dataset("malekoweis/resale-market-data", "mercari-us-sold-listings")`).
 
+## Live weekly index: SoldSignal
+
+These files are one-time snapshots. For **prices updated every week**, see
+**[SoldSignal](https://www.aiplannermail.com/)**: a free resale price index for sneakers, consoles,
+collectibles and watches. Every item shows a dated median (SOLD or ASK) with its sample size, the
+price by size or condition, and what a seller keeps after each platform's fees.
+
+- Free API, no key: [`/api/v1/items.json`](https://www.aiplannermail.com/api/v1/items.json), one file per item at `/api/v1/items/<slug>.json` ([OpenAPI](https://www.aiplannermail.com/api/openapi.json))
+- CSV / JSON downloads, frozen per ISO week: [Data & API](https://www.aiplannermail.com/data/)
+- For AI assistants: [`llms.txt`](https://www.aiplannermail.com/llms.txt) and [`llms-full.txt`](https://www.aiplannermail.com/llms-full.txt)
+- How prices are computed: [methodology](https://www.aiplannermail.com/methodology/) · [resale fee calculator](https://www.aiplannermail.com/fee-calculator/)
+
 ## What the data shows (October 2026)
 
 - **Used Nintendo Switch on Mercari US:** a Switch OLED in Good condition sold for a median of
